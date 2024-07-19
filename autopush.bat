@@ -1,5 +1,5 @@
 @echo off
-cd /d "C:\Users\WiKi\TestSsave"
+cd /d "%USERPROFILE%\TestSsave"
 git add .
 git commit -m "Auto commit"
 git push origin main
